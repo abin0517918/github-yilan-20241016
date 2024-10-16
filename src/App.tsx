@@ -2,8 +2,9 @@ import React, { useState, useCallback } from 'react';
 import HomePage from './components/HomePage';
 import EnvironmentPage from './components/EnvironmentPage';
 import VideoPlayer from './components/VideoPlayer';
-import video1  from './videos/20210615.mp4';
+import video1  from './videos/20210615_.mp4';
 import video2  from './videos/20210623.mp4';
+import video3  from './videos/20180000.mp4';
 
 // Use only reliable video sources
 const videos = [
@@ -21,7 +22,7 @@ const videos = [
 const videos2 = [
   video1,
   video2,
-  video1'
+  video3
 ];
 
 const buttonLabels = ['宜蘭慈濟史', '宜蘭城歷史', '宜蘭環保簡介', '宜蘭慈善簡介', '靜思心語'];

@@ -83,7 +83,7 @@ const VideoPlayer: React.FC<VideoPlayerProps> = ({ src, onEnded, onError, onBack
         src={src}
         className="w-full h-full object-contain"
         onEnded={onEnded}
-        controls
+        controls={false}
         preload="auto"
       />
     </div>
