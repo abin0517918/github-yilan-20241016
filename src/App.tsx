@@ -3,6 +3,7 @@ import HomePage from './components/HomePage';
 import EnvironmentPage from './components/EnvironmentPage';
 import VideoPlayer from './components/VideoPlayer';
 import video1  from './videos/20210615.mp4';
+import video2  from './videos/20210623.mp4';
 
 // Use only reliable video sources
 const videos = [
@@ -19,7 +20,7 @@ const videos = [
 
 const videos2 = [
   video1,
-  video1,
+  video2,
   video1'
 ];
 
