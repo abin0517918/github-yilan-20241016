@@ -4,13 +4,13 @@ import VideoPlayer from './VideoPlayer';
 
 // Update video URLs to more reliable sources
 const videos = [
-  'https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
-  'https://storage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4',
-  'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4',
-  'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4',
-  'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4',
-  'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4',
-  'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4',
+  'https://videos.pexels.com/video-files/3196563/3196563-uhd_2560_1440_25fps.mp4',
+  'https://videos.pexels.com/video-files/6591440/6591440-uhd_2732_1440_25fps.mp4',
+  'https://videos.pexels.com/video-files/3195440/3195440-uhd_2560_1440_25fps.mp4',
+  'https://videos.pexels.com/video-files/4404092/4404092-uhd_2560_1440_24fps.mp4',
+  'https://videos.pexels.com/video-files/3050711/3050711-hd_1920_1080_24fps.mp4',
+  'https://videos.pexels.com/video-files/26986993/12042519_1920_1080_24fps.mp4',
+  'https://videos.pexels.com/video-files/1093662/1093662-hd_1920_1080_30fps.mp4',
 ];
 
 const locations = ['頭城', '宜蘭', '嵐峰', '羅東', '三星', '冬山', '蘇澳'];

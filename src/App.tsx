@@ -2,27 +2,23 @@ import React, { useState, useCallback } from 'react';
 import HomePage from './components/HomePage';
 import EnvironmentPage from './components/EnvironmentPage';
 import VideoPlayer from './components/VideoPlayer';
-import video1  from './videos/20210615_.mp4';
+import video1  from './videos/20210615.mp4';
 import video2  from './videos/20210623.mp4';
 import video3  from './videos/20180000.mp4';
 
 // Use only reliable video sources
 const videos = [
-  'https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
-  'https://storage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4',
-  'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4',
-  'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4',
-  'https://storage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4',
-  'https://storage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4',
-  'https://storage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4',
-  'https://storage.googleapis.com/gtv-videos-bucket/sample/VolkswagenGTIReview.mp4',
-  'https://storage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4',
+  'https://videos.pexels.com/video-files/1448735/1448735-uhd_2732_1440_24fps.mp4',
+  'https://videos.pexels.com/video-files/856932/856932-hd_1920_1080_25fps.mp4',
+  'https://videos.pexels.com/video-files/3117818/3117818-hd_1920_1080_30fps.mp4',
+  'https://videos.pexels.com/video-files/855602/855602-hd_1920_1080_30fps.mp4',
+  'https://videos.pexels.com/video-files/855867/855867-hd_1920_1080_30fps.mp4',
 ];
 
 const videos2 = [
   video1,
   video2,
-  video3
+  video3,
 ];
 
 const buttonLabels = ['宜蘭慈濟史', '宜蘭城歷史', '宜蘭環保簡介', '宜蘭慈善簡介', '靜思心語'];
