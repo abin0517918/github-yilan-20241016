@@ -2,6 +2,7 @@ import React, { useState, useCallback } from 'react';
 import HomePage from './components/HomePage';
 import EnvironmentPage from './components/EnvironmentPage';
 import VideoPlayer from './components/VideoPlayer';
+import video1  from './videos/20210615.mp4';
 
 // Use only reliable video sources
 const videos = [
@@ -14,6 +15,12 @@ const videos = [
   'https://storage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4',
   'https://storage.googleapis.com/gtv-videos-bucket/sample/VolkswagenGTIReview.mp4',
   'https://storage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4',
+];
+
+const videos2 = [
+  video1,
+  video1,
+  video1'
 ];
 
 const buttonLabels = ['宜蘭慈濟史', '宜蘭城歷史', '宜蘭環保簡介', '宜蘭慈善簡介', '靜思心語'];
@@ -42,9 +49,11 @@ function App() {
   const handleButtonClick = useCallback((index: number) => {
     if (index === 2) {
       setCurrentPage('environment');
+    } else if (index === 4) {
+      const randomIndex = Math.floor(Math.random() * videos2.length);
+      setCurrentVideoSrc(videos2[randomIndex]);
     } else {
-      const videoIndex = index === 4 ? Math.floor(Math.random() * videos.length) : index;
-      setCurrentVideoSrc(videos[videoIndex]);
+      setCurrentVideoSrc(videos[index]);
     }
   }, []);
 
