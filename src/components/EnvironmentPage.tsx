@@ -1,6 +1,7 @@
 import React, { useState, useCallback } from 'react';
 import { ArrowLeft } from 'lucide-react';
 import VideoPlayer from './VideoPlayer';
+import yilanmap from '../images/yilan_map.png';
 
 // Update video URLs to more reliable sources
 const videos = [
@@ -67,8 +68,7 @@ const EnvironmentPage: React.FC<EnvironmentPageProps> = ({ onBack }) => {
       ) : (
         <>
           <img 
-            //src="https://openclipart.org/image/800px/333840" 
-            src="./images/yilan_map.png"
+            src={yilanmap}
             alt="宜蘭縣地圖" 
             className="absolute inset-0 w-full h-full object-cover"
           />
