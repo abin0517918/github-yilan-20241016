@@ -67,7 +67,8 @@ const EnvironmentPage: React.FC<EnvironmentPageProps> = ({ onBack }) => {
       ) : (
         <>
           <img 
-            src="https://openclipart.org/image/800px/333840" 
+            //src="https://openclipart.org/image/800px/333840" 
+            src="./images/yilan_map.png"
             alt="宜蘭縣地圖" 
             className="absolute inset-0 w-full h-full object-cover"
           />
