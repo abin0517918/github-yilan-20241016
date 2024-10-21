@@ -14,17 +14,17 @@ const videos = [
   'https://videos.pexels.com/video-files/1093662/1093662-hd_1920_1080_30fps.mp4',
 ];
 
-const locations = ['頭城', '礁溪', '宜蘭', '嵐峰', '羅東', '三星', '冬山', '蘇澳'];
+const locations = ['頭城環保站', '礁溪環保站', '宜蘭環保站', '嵐峰環保站', '羅東環保站', '三星環保站', '冬山環保站', '蘇澳環保站'];
 
 const buttonPositions = [
-  { top: '16%', left: '60%' },  // 頭城
-  { top: '26%', left: '54%' },  // 礁溪
-  { top: '35%', left: '58%' },  // 宜蘭
-  { top: '38%', left: '54%' },  // 嵐峰
-  { top: '45%', left: '58%' },  // 羅東
-  { top: '47%', left: '53%' },  // 三星
-  { top: '54%', left: '58%' },  // 冬山
-  { top: '56%', left: '62%' },  // 蘇澳
+  { top: '20%', left: '75%' },  // 頭城
+  { top: '25%', left: '75%' },  // 礁溪
+  { top: '30%', left: '75%' },  // 宜蘭
+  { top: '35%', left: '75%' },  // 嵐峰
+  { top: '40%', left: '75%' },  // 羅東
+  { top: '45%', left: '75%' },  // 三星
+  { top: '50%', left: '75%' },  // 冬山
+  { top: '55%', left: '75%' },  // 蘇澳
 ];
 
 interface EnvironmentPageProps {
@@ -86,7 +86,7 @@ const EnvironmentPage: React.FC<EnvironmentPageProps> = ({ onBack }) => {
               </button>
             ))}
             <div className="absolute bottom-4 right-4 text-white text-2xl font-bold">
-              宜蘭環保站
+              宜蘭縣環保站
             </div>
           </div>
         </>
