@@ -14,16 +14,17 @@ const videos = [
   'https://videos.pexels.com/video-files/1093662/1093662-hd_1920_1080_30fps.mp4',
 ];
 
-const locations = ['頭城', '宜蘭', '嵐峰', '羅東', '三星', '冬山', '蘇澳'];
+const locations = ['頭城', '礁溪', '宜蘭', '嵐峰', '羅東', '三星', '冬山', '蘇澳'];
 
 const buttonPositions = [
-  { top: '3%', left: '72%' },  // 頭城
-  { top: '32%', left: '65%' },  // 宜蘭
-  { top: '25%', left: '62%' },  // 嵐峰
-  { top: '48%', left: '65%' },  // 羅東
-  { top: '45%', left: '55%' },  // 三星
-  { top: '62%', left: '65%' },  // 冬山
-  { top: '78%', left: '75%' },  // 蘇澳
+  { top: '16%', left: '60%' },  // 頭城
+  { top: '26%', left: '54%' },  // 礁溪
+  { top: '35%', left: '58%' },  // 宜蘭
+  { top: '38%', left: '54%' },  // 嵐峰
+  { top: '45%', left: '58%' },  // 羅東
+  { top: '47%', left: '53%' },  // 三星
+  { top: '54%', left: '58%' },  // 冬山
+  { top: '56%', left: '62%' },  // 蘇澳
 ];
 
 interface EnvironmentPageProps {
@@ -70,7 +71,7 @@ const EnvironmentPage: React.FC<EnvironmentPageProps> = ({ onBack }) => {
           <img 
             src={yilanmap}
             alt="宜蘭縣地圖" 
-            className="absolute inset-0 w-full h-full object-cover"
+            className="absolute inset-0 h-full object-cover mx-auto"
           />
           <div className="absolute inset-0 bg-black bg-opacity-30 flex flex-col justify-center items-center">
             <BackButton />
