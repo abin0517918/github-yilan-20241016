@@ -18,13 +18,13 @@ const locations = ['頭城環保站', '礁溪環保站', '宜蘭環保站', '嵐
 
 const buttonPositions = [
   { top: '20%', left: '75%' },  // 頭城
-  { top: '25%', left: '75%' },  // 礁溪
-  { top: '30%', left: '75%' },  // 宜蘭
-  { top: '35%', left: '75%' },  // 嵐峰
-  { top: '40%', left: '75%' },  // 羅東
-  { top: '45%', left: '75%' },  // 三星
-  { top: '50%', left: '75%' },  // 冬山
-  { top: '55%', left: '75%' },  // 蘇澳
+  { top: '27%', left: '75%' },  // 礁溪
+  { top: '34%', left: '75%' },  // 宜蘭
+  { top: '41%', left: '75%' },  // 嵐峰
+  { top: '48%', left: '75%' },  // 羅東
+  { top: '55%', left: '75%' },  // 三星
+  { top: '62%', left: '75%' },  // 冬山
+  { top: '69%', left: '75%' },  // 蘇澳
 ];
 
 interface EnvironmentPageProps {
