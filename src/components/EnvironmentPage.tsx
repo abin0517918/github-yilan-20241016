@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from 'react';
+import React, { useState, useCallback, useEffect  } from 'react';
 import { ArrowLeft } from 'lucide-react';
 import VideoPlayer from './VideoPlayer';
 import yilanmap from '../images/yilan_map.png';
@@ -33,6 +33,14 @@ interface EnvironmentPageProps {
 
 const EnvironmentPage: React.FC<EnvironmentPageProps> = ({ onBack }) => {
   const [currentVideoSrc, setCurrentVideoSrc] = useState<string | null>(null);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      onBack();
+    }, 180000); // 180000 milliseconds = 3 minutes
+
+    return () => clearTimeout(timer);
+  }, [onBack]);
 
   const handleVideoEnd = useCallback(() => {
     setCurrentVideoSrc(null);
